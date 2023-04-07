@@ -1,0 +1,10 @@
+.App {
+  font-family: 'Josefin Slab', serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.App .dark{
+  background-color: #282D35;
+  color: white; 
+}

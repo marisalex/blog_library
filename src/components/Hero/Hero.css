@@ -1,0 +1,33 @@
+.hero{
+  display: flex;
+  width: 1000px;
+  margin: 50px 0px 0px 0px;
+  gap: 70px;
+  align-items: center;
+}
+
+.hero--img{
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.hero-text{
+  width: min-content;
+  overflow-wrap: break-word;
+}
+
+.hero-heading{
+  font-size: 70px;
+}
+
+.hero-heading-small{
+  font-size: 30px;
+}
+
+.hero-subheading{
+  line-height: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+

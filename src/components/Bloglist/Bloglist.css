@@ -1,0 +1,32 @@
+.top-stories img{
+  width: 550px;
+  height: 311px;
+  object-fit: cover;
+}
+
+.top-stories{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.blog-btn{
+  padding: 20px 40px;
+  border: 3px solid black;
+  background: white;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.delete-blog:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.edit-blog:hover{
+  color: blue;
+  cursor: pointer;
+}

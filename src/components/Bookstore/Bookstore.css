@@ -1,0 +1,13 @@
+.book-display{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.book{
+  margin-left: 90px;
+}
+
+.book img{
+  width: 200px;
+}

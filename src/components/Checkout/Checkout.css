@@ -1,0 +1,35 @@
+.cart-container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.single-cart{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.cart-img{
+  width: 50px;
+}
+
+.cart-qty{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0;
+}
+
+.cart-qty-input{
+  grid-row: 1 / 3;
+  width: 30px;
+}
+
+/* .cart-header{
+  display: flex;
+  gap: 70px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+} */

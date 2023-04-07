@@ -1,0 +1,45 @@
+.form-header{
+  font-size: 70px;
+  width: 800px;
+}
+
+.form-subtitle{
+  font-size: 30px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.form-input{
+  margin-top: 50px;
+}
+
+
+.form-input input, textarea{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 150px 10px 0px;
+  background-color: rgb(231, 230, 230);
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+label{
+  font-size: 20px;
+}
+
+
+textarea{
+  width: 150px;
+  height: 100px;
+}
+
+
