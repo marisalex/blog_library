@@ -24,7 +24,7 @@ function Router(){
       <Navbar />
 
       <Routes>
-        <Route path="/main" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="/submit" element={<Story />} />
         <Route path="/shop" element={newBook} />
         <Route path ="/checkout" element={<Checkout />} />

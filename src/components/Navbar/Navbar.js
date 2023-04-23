@@ -27,7 +27,7 @@ export default function Navbar(props) {
         <p className="toggler--dark">Dark</p>
       </div>
       <div className="pages">
-      <Link to="/main">Home</Link>
+      <Link to="/">Home</Link>
       <Link to="/shop">Shop</Link>
       <Link to="/">Blog</Link>
       <Link to="/submit">Submit a story</Link>

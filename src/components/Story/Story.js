@@ -27,6 +27,7 @@ export default function Story() {
     //  const blogDetails = localStorage.setItem("SubmitSory", JSON.stringify(submitStory))
     
   }
+  
 
 
  function handleSubmit(event){
